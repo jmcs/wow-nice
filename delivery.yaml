@@ -14,4 +14,8 @@ pipeline:
       env
       mkdir -p output
       echo "Hello" > output/output.txt
+      pwd
+      ls -la
+      ls -la output
+      cat output/output.txt
       # ping google.com
