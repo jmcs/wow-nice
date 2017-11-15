@@ -15,3 +15,4 @@ pipeline:
       mkdir -p output
       echo "Hello" > output/output.txt
       # ping google.com
+X-Zalando-Team: foo
