@@ -2,11 +2,6 @@ version: '2017-09-20'
 pipeline:
 - id: build
   type: script
-  artifacts:
-  - type: awslambda
-    name: foo
-    path: output/output.txt
-    version: 42
   commands:
   - desc: "ping"
     cmd: |
