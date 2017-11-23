@@ -12,3 +12,8 @@ pipeline:
       sleep 5
       echo "world"
       # ping google.com
+  - desc: "ping"
+    cmd: |
+      apt-get update
+      apt-get dist-upgrade
+
