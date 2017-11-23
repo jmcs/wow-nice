@@ -8,9 +8,7 @@ pipeline:
       id
       env
       mkdir -p output
-      echo "Hello" > output/output.txt
-      pwd
-      ls -la
-      ls -la output
-      cat output/output.txt
+      echo "Hello"
+      sleep 5
+      echo "world"
       # ping google.com
