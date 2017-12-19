@@ -8,10 +8,7 @@ pipeline:
       id
       env
       mkdir -p output
-      echo "Hello"
-      sleep 5
-      echo "world"
-      # ping google.com
+      git gh-tag test
   - desc: "ping"
     cmd: |
       apt-get update
