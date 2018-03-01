@@ -8,9 +8,4 @@ pipeline:
       id
       env
       mkdir -p output
-      git gh-tag test
-  - desc: "ping"
-    cmd: |
-      apt-get update
-      apt-get dist-upgrade
-
+      curl https://pierone.stups.zalan.do/v2/ci/test-overlay/manifests/pr-9-108
