@@ -10,4 +10,4 @@ pipeline:
       mkdir -p output
       cat /etc/resolv.conf
       service bind9 status
-      curl https://pierone.stups.zalan.do/v2/ci/test-overlay/manifests/pr-9-108
+      curl https://pierone.stups.zalan.do/cdp-healthcheck
