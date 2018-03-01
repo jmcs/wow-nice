@@ -11,5 +11,6 @@ pipeline:
       cat /etc/resolv.conf
       cat /etc/bind/db.rpz
       cat /etc/bind/named.conf.options
+      service bind9 restart
       service bind9 status
       curl https://pierone.stups.zalan.do/cdp-healthcheck
